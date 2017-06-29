@@ -46,7 +46,7 @@ regmap<-function(
     main=main,
     col.regions =colorRampPalette(mapcol)(length(territory)+16),
     sp.layout = make.numb.sp.label(geofile,fill),
-    scales=list(draw=T),
+    scales=list(draw=F),
     col="grey",
     edge.col="grey",
     colorkey=TRUE,
