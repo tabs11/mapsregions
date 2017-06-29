@@ -4,7 +4,7 @@
 \alias{regmap}
 \title{plot mapregions}
 \usage{
-regmap(geofile, territory, labels, measure, fill, main, mapcol, xlimit, ylimit)
+regmap(geofile, territory, labels, measure, fill, label.size,main, mapcol, xlimit, ylimit)
 }
 \arguments{
 \item{geofile}{geojon file with coordinates}
@@ -16,6 +16,8 @@ regmap(geofile, territory, labels, measure, fill, main, mapcol, xlimit, ylimit)
 \item{measure}{column value to measure}
 
 \item{fill}{type of label: 1-abrev, 2-full, 3- None}
+
+\item{label.size}{size of labels}
 
 \item{main}{main title}
 
