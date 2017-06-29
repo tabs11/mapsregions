@@ -19,13 +19,14 @@ regmap<-function(
   labels,
   measure,
   fill,
+  label.size,
   main,
   mapcol,
   xlimit,
   ylimit
 ){
   sp.label <- function(geofile, label) {
-    list("sp.text", coordinates(geofile), cex=0.5,label)
+    list("sp.text", coordinates(geofile), cex=label.size,label)
   }
 
   numb.sp.label <- function(geofile) {
