@@ -10,7 +10,7 @@
 #' @param main main title
 #' @param mapcol colores
 #' @param xlimit x limit
-#' @param yllimit y limit
+#' @param ylimit y limit
 #' @export
 #' @return NULL
 

@@ -25,7 +25,7 @@ regmap(geofile, territory, labels, measure, fill, label.size,main, mapcol, xlimi
 
 \item{xlimit}{x limit}
 
-\item{yllimit}{y limit}
+\item{ylimit}{y limit}
 }
 \description{
 mapping regions given geojson file
