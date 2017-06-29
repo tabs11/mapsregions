@@ -6,6 +6,7 @@
 #' @param labels column values to be set in labels
 #' @param measure column value to measure
 #' @param fill type of label: 1-abrev, 2-full, 3- None
+#' @param label.size size of labels
 #' @param main main title
 #' @param mapcol colores
 #' @param xlimit x limit
